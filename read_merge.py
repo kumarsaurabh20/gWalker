@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 """
 Usage:: reads_merge.py -r <reference sequence> -f <reads file>
-The script merges all the reads in reads file to the reference sequence using a step wise global alignment method.
+The script merges all the reads in reads file to the reference sequence.
 """
 from __future__ import (print_function, division)
 from Bio import SeqIO
